@@ -1,0 +1,7 @@
+#configuracao ips
+
+ifconfig eth0 10.2.2.1/24
+
+#configuracao rotas
+
+route add default gw 10.2.2.254 dev eth0
